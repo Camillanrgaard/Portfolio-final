@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="img/logo-white.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Camilla Nørgaard | Portfolio</title>
+  </head>
+  <header>
+    <nav id="navbar" class="navbarClass">
+      <a href="index.html" id="logo"
+        ><img src="img/logo-white.png" id="logo" alt="camilla nørgaard logo" />
+      </a>
+      <a onclick="myFunction()" id="menu-icon">&#9776;</a>
+      <div id="navbar-right">
+        <a href="#about_section" class="nav-link">OM MIG</a>
+        <a href="#work_section" class="nav-link">MIT ARBEJDE</a>
+        <a href="#contact_section" class="nav-link">KONTAKT</a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <!-------------- HERO SECTION -------------->
+    <div class="parallax parallax1">
+      <section class="hero_text">
+        <h1>Camilla Nørgaard</h1>
+        <div class="typewriter">
+          <h2 id="text">Multimediedesigner • Frontend Developer</h2>
+        </div>
+      </section>
+    </div>
+
+    <!-------------- ABOUT SECTION -------------->
+    <section class="parallax_section2 parallax" id="about_section">
+      <div class="box_2">
+        <h3>Hej!</h3>
+        <div class="flex">
+          <p>
+            Jeg hedder Camilla og er 22 år. Jeg studerer på Erhvervsakademi
+            Aarhus til multimediedesigner på frontend developer linjen.
+            <br /><br />
+            Min store interesse er programmering, jeg brænder for hele tiden at
+            udvikle mig og blive bedre. Jeg elsker at søge ny viden og se mine
+            fremskridt.<br />
+            I forbindelse med mit studie, søger jeg en praktikplads, hvor jeg
+            har mulighed for at udvikle mig endnu mere, og få en masse ny god
+            læring.
+            <br /><br />Hvis I tænker, at jeg kunne være interessant, kan jeg
+            love jer for, at I får en praktikant med en god energi. Jeg er
+            yderst engageret og meget passioneret omkring det arbejde jeg
+            leverer. Stædighed er en af mine nøgleegenskaber, som gør, at jeg
+            altid fuldføre en stillet opgave samt gør mit ypperste. Jeg er god
+            til sparring og arbejde sammen med andre mennesker. <br /><br />Jeg
+            håber meget på, at høre fra jer. I kan se mit CV og
+            kontaktoplysninger længere ned på siden.
+          </p>
+          <img class="me_img" src="img/camilla1.png" alt="camilla nørgaard" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------- CV SECTION -------------->
+    <div class="line"></div>
+    <div class="box3">
+      <section class="parallax_section cv">
+        <h3>SE MIT CV</h3>
+        <a target="_blank" href="camillanorgaard-cv.pdf" download="">
+          <button class="button">Her</button></a
+        >
+      </section>
+    </div>
+    <div class="line"></div>
+
+    <!--------------  SKILLS SECTION -------------->
+    <div class="parallax-skills parallax">
+      <div class="whitespace2"></div>
+      <div class="container-skills">
+        <div class="HTML">HTML5</div>
+        <div class="CSS">CSS3</div>
+        <div class="SASS">SASS</div>
+        <div class="JavaScript">JavaScript</div>
+        <div class="Wordpress">Wordpress</div>
+        <div class="JSON">JSON</div>
+        <div class="Photoshop">Photoshop</div>
+        <div class="XD">XD</div>
+        <div class="Illustrator">Illustrator</div>
+        <div class="Premiere-Pro">Premiere Pro</div>
+        <div class="Animate">Animate</div>
+        <div class="Procreate">Procreate</div>
+      </div>
+      <div class="whitespace2"></div>
+    </div>
+
+    <!-------------- WORK GALLERY SECTION -------------->
+    <div class="line"></div>
+    <section class="parallax_section" id="work_section">
+      <!---- POPUP BOX ---->
+      <div id="modal-window-one" class="modal-window modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="modal_img">
+            <img src="img/persona1-draupnir.PNG" alt="persona draupnir" />
+            <img src="img/persona2-draupnir.PNG" alt="persona draupnir" />
+            <img src="img/persona3-draupnir.PNG" alt="persona draupnir" />
+            <img src="img/wireframe1-draupnir.PNG" alt="wireframe draupnir" />
+            <img src="img/wireframe2-draupnir.PNG" alt="wireframe draupnir" />
+          </div>
+        </div>
+      </div>
+      <!---------------------->
+
+      <ul class="gallery">
+        <li style="background: transparent">
+          <section class="img_flex">
+            <img
+              src="img/draupnir.png"
+              class="img_desktop"
+              alt="draupnir denmark desktop"
+            />
+            <img
+              src="img/draupnir-mobile.png"
+              class="img_mobile"
+              alt="draupnir denmark mobile"
+            />
+            <div class="gallery_text">
+              <h4>Draupnir Danmark</h4>
+              <p>
+                Draupnir Danmark er dansk distributør af rideudstyrs produkter
+                fra det norske brand Draupnir. Hjemmesiden er et
+                eksamensporjekt, som efterfølgende er gået live.
+              </p>
+              <p class="website_link_p">
+                <a
+                  class="website_link"
+                  href="https://draupnir.com/"
+                  target="_blank"
+                  >Se hjemmesiden her</a
+                >
+              </p>
+            </div>
+          </section>
+          <div class="whitespace"></div>
+          <button
+            class="button click-to-open"
+            data-modal="modal-window-one"
+            id="btn"
+          >
+            Læs mere her
+          </button>
+        </li>
+
+        <!---- POPUP BOX ---->
+        <div id="modal-window-two" class="modal-window modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal_img">
+              <img
+                src="img/persona1-aabykollegiet.PNG"
+                alt="persona aabykollegiet"
+              />
+              <img
+                src="img/persona2-aabykollegiet.PNG"
+                alt="persona aabykollegiet"
+              />
+              <img
+                src="img/persona3-aabykollegiet.PNG"
+                alt="persona aabykollegiet"
+              />
+              <img
+                src="img/wireframe1-aabykollegiet.PNG"
+                alt="wireframe aabykollegiet"
+              />
+              <img
+                src="img/wireframe2-aabykollegiet.PNG"
+                alt="wireframe aabykollegiet"
+              />
+            </div>
+          </div>
+        </div>
+        <!---------------------->
+        <li style="background: transparent">
+          <section class="img_flex">
+            <img
+              src="img/aabykollegiet.png"
+              class="img_desktop"
+              alt="aabykollegiet desktop"
+            />
+            <img
+              src="img/aabykolleiget-mobile.png"
+              class="img_mobile"
+              alt="aabykollegiet mobile"
+            />
+            <div class="gallery_text">
+              <h4>Åbykollegiet</h4>
+              <p>
+                Denne opgave er et skoleprojekt. Formålet med opgaven var, at
+                skabe en visuel identitet for et kollegie.
+              </p>
+            </div>
+          </section>
+          <div class="whitespace"></div>
+
+          <button class="button click-to-open" data-modal="modal-window-two">
+            Læs mere her
+          </button>
+        </li>
+
+        <!---- POPUP BOX ---->
+        <div id="modal-window-three" class="modal-window modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal_img">
+              <img src="img/persona1-anton.PNG" alt="persona anton" />
+              <img src="img/persona2-anton.PNG" alt="persona anton" />
+              <img src="img/wireframe-anton.PNG" alt="wireframe anton" />
+            </div>
+          </div>
+        </div>
+        <!---------------------->
+        <li style="background: transparent">
+          <section class="img_flex">
+            <img
+              src="img/anton.png"
+              class="img_desktop"
+              alt="anton tzannis desktop"
+            />
+            <img
+              src="img/anton-mobile.png"
+              class="img_mobile"
+              alt="anton tzannis mobile"
+            />
+            <div class="gallery_text">
+              <h4>Anton Tzannis</h4>
+              <p>
+                Denne opgave er et skoleprojekt. Formålet med opgaven var, at
+                lave et produkt med mobile first, samt responsive web design.
+              </p>
+            </div>
+          </section>
+          <div class="whitespace"></div>
+          <button class="button click-to-open" data-modal="modal-window-three">
+            Læs mere her
+          </button>
+        </li>
+      </ul>
+    </section>
+    <div class="line"></div>
+
+    <!-------------- CONTACT -------------->
+    <div class="parallax_contact parallax" id="contact_section">
+      <div class="whitespace2"></div>
+      <section class="box">
+        <h3 class="black">KONTAKT MIG</h3>
+        <div class="contact_info">
+          <a href="tel:40624948"><p class="black">Telefon: 40624948</p></a>
+          <a target="_blank" href="mailto:camilla.nrgaard@yahoo.dk"
+            ><p class="black">Email: camilla.nrgaard@yahoo.dk</p></a
+          >
+          <div class="icons">
+            <a target="_blank" href="https://github.com/Camillanrgaard"
+              ><img
+                class="icon"
+                src="img/GitHub-Mark-120px-plus.png"
+                alt="github logo"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/camilla-n%C3%B8rgaard-a056611b5"
+              ><img class="icon" src="img/LI-In-Bug.png" alt="linkedin logo"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <div class="whitespace2"></div>
+      <footer>© Copyright 2021 Camilla Nørgaard. All rights reserved.</footer>
+    </div>
+
+    <!-------------- footer -------------->
+    <script src="js/script.js"></script>
+  </body>
+</html>
